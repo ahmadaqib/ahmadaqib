@@ -9,7 +9,6 @@
 
 - 📫 How to reach me **ahmadaqibsunu@gmail.com**
 
-- ⚡ Fun fact **i think i am cat**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
