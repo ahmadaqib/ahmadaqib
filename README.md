@@ -3,9 +3,9 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=ahmadaqib&label=Profile%20views&color=0e75b6&style=flat" alt="ahmadaqib" /> </p>
 
-- 🌱 I’m currently learning **everything**
+- 🌱 I’m currently learning **life**
 
-- 💬 Ask me about **nothing**
+- 💬 Ask me **nothing**
 
 - 📫 How to reach me **ahmadaqibsunu@gmail.com**
 
