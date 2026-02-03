@@ -10,9 +10,9 @@
 ---
 
 ### ⚡ 2026 Status: Full Grinding
-Saya tidak lagi sekadar "belajar hidup". Tahun ini adalah tentang **eksekusi teknis** dan **pembangunan sistem**. Fokus saya saat ini adalah memperdalam arsitektur perangkat lunak yang skalabel dan efisiensi manajemen server.
+Tahun ini adalah tentang **eksekusi teknis** dan **pembangunan sistem**. Fokus saya saat ini adalah memperdalam arsitektur perangkat lunak yang skalabel dan efisiensi manajemen server.
 
-- 🛠 **Current Focus:** Laravel Ecosystem, Python for Data, & Mobile Development.
+- 🛠 **Current Focus:** Laravel Ecosystem, Python for Data Analysis, & Mobile Development.
 - 🎯 **Goal:** Building robust solutions that solve real-world problems.
 - 🤝 **Collaboration:** Open for technical discussions and high-impact projects.
 
@@ -27,22 +27,21 @@ Saya tidak lagi sekadar "belajar hidup". Tahun ini adalah tentang **eksekusi tek
 
 **Database & Infrastructure**
 - **Database:** MySQL, MongoDB, Firebase.
-- **Tools:** Docker, Git, Cloudflare, Nginx, VPS Management.
+- **Tools:** Docker, Git, Cloudflare, Nginx, Linux Server Management.
 
 **Design & Others**
-- **Design:** Figma, Adobe Photoshop.
-- **3D:** Blender.
+- **Design:** Figma, Adobe Photoshop, Blender.
 - **Non-Technical:** Strategic Negotiation & Conflict Resolution.
 
 ---
 
 ### 📈 GitHub Statistics
 <p align="left">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=ahmadaqib&show_icons=true&locale=en&layout=compact&theme=vision-friendly-dark" alt="Ahmad Aqib Top Langs" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=ahmadaqib&show_icons=true&locale=en&layout=compact&theme=vision-friendly-dark&cache_seconds=1800" alt="Ahmad Aqib Top Langs" />
 </p>
 
 <p align="left">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ahmadaqib&theme=vision-friendly-dark" alt="Ahmad Aqib Streak" />
+  <img src="https://streak-stats.demolab.com?user=ahmadaqib&theme=vision-friendly-dark&cache_seconds=1800" alt="Ahmad Aqib Streak" />
 </p>
 
 ---
