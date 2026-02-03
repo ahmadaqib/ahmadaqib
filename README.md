@@ -12,7 +12,7 @@
 ### ⚡ 2026 Status: Full Grinding
 Tahun ini adalah tentang **eksekusi teknis** dan **pembangunan sistem**. Fokus saya saat ini adalah memperdalam arsitektur perangkat lunak yang skalabel dan efisiensi manajemen server.
 
-- 🛠 **Current Focus:** Laravel Ecosystem, Python for Data Analysis, & Mobile Development.
+- 🛠 **Current Focus:** Performance Systems (Go/Rust), Laravel Ecosystem, & Infrastructure.
 - 🎯 **Goal:** Building robust solutions that solve real-world problems.
 - 🤝 **Collaboration:** Open for technical discussions and high-stakes projects.
 
@@ -21,12 +21,13 @@ Tahun ini adalah tentang **eksekusi teknis** dan **pembangunan sistem**. Fokus s
 ### 🛠 Tech Stack
 
 **Programming & Frameworks**
-- **Backend:** PHP (Laravel, CodeIgniter), Python (Prophet/Data Analysis), Node.js.
-- **Frontend:** Vue.js, JavaScript, Bootstrap, CSS3, HTML5.
+- **Languages:** PHP, JavaScript, **TypeScript**, **Go**, **Rust**, Python.
+- **Backend:** Laravel (**Livewire**), CodeIgniter, Node.js.
+- **Frontend:** Vue.js, Tailwind CSS, Bootstrap.
 - **Mobile:** Flutter, Android (Native).
 
 **Database & Infrastructure**
-- **Database:** MySQL, MongoDB, Postgresql, Firebase.
+- **Database:** MySQL, PostgreSQL, MongoDB, Firebase.
 - **Tools:** Docker, Git, Cloudflare, Nginx, Linux Server Management.
 
 **Design & Others**
@@ -37,7 +38,7 @@ Tahun ini adalah tentang **eksekusi teknis** dan **pembangunan sistem**. Fokus s
 
 ### 📈 GitHub Statistics
 <p align="left">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ahmadaqib&" alt="ahmadaqib" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ahmadaqib&theme=vision-friendly-dark" alt="ahmadaqib" />
 </p>
 
 ---
