@@ -38,7 +38,7 @@ Tahun ini adalah tentang **eksekusi teknis** dan **pembangunan sistem**. Fokus s
 
 ### 📈 GitHub Statistics
 <p align="left">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ahmadaqib&theme=vision-friendly-dark" alt="ahmadaqib" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ahmadaqib&" alt="ahmadaqib" />
 </p>
 
 ---
