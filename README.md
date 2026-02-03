@@ -14,7 +14,7 @@ Tahun ini adalah tentang **eksekusi teknis** dan **pembangunan sistem**. Fokus s
 
 - 🛠 **Current Focus:** Laravel Ecosystem, Python for Data Analysis, & Mobile Development.
 - 🎯 **Goal:** Building robust solutions that solve real-world problems.
-- 🤝 **Collaboration:** Open for technical discussions and high-impact projects.
+- 🤝 **Collaboration:** Open for technical discussions and high-stakes projects.
 
 ---
 
@@ -26,22 +26,22 @@ Tahun ini adalah tentang **eksekusi teknis** dan **pembangunan sistem**. Fokus s
 - **Mobile:** Flutter, Android (Native).
 
 **Database & Infrastructure**
-- **Database:** MySQL, MongoDB, Firebase.
+- **Database:** MySQL, MongoDB, Postgresql, Firebase.
 - **Tools:** Docker, Git, Cloudflare, Nginx, Linux Server Management.
 
 **Design & Others**
-- **Design:** Figma, Adobe Photoshop, Blender.
+- **Design:** Figma, Adobe Photoshop, Blender, Cinema 4D.
 - **Non-Technical:** Strategic Negotiation & Conflict Resolution.
 
 ---
 
 ### 📈 GitHub Statistics
 <p align="left">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=ahmadaqib&show_icons=true&locale=en&layout=compact&theme=vision-friendly-dark&cache_seconds=1800" alt="Ahmad Aqib Top Langs" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=ahmadaqib&show_icons=true&locale=en&layout=compact" alt="ahmadaqib" />
 </p>
 
 <p align="left">
-  <img src="https://streak-stats.demolab.com?user=ahmadaqib&theme=vision-friendly-dark&cache_seconds=1800" alt="Ahmad Aqib Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ahmadaqib&" alt="ahmadaqib" />
 </p>
 
 ---
