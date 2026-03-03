@@ -9,44 +9,44 @@
 
 ---
 
-### ⚡ 2026 Status: Full Grinding
-Tahun ini adalah tentang **eksekusi teknis** dan **pembangunan sistem**. Fokus saya saat ini adalah memperdalam arsitektur perangkat lunak yang skalabel dan efisiensi manajemen server.
+### ⚡ 2026: Pure Execution
+This year is strictly about **technical grit** and **building systems that last**. I am currently deep-diving into scalable software architecture and high-efficiency server management.
 
 - 🛠 **Current Focus:** Performance Systems (Go/Rust), Laravel Ecosystem, & Infrastructure.
-- 🎯 **Goal:** Building robust solutions that solve real-world problems.
-- 🤝 **Collaboration:** Open for technical discussions and high-stakes projects.
+- 🎯 **Goal:** Engineering robust solutions for high-stakes, real-world problems.
+- 🤝 **Collaboration:** I’m open to technical deep-dives and projects where the stakes are high.
 
 ---
 
-### 🛠 Tech Stack
+### 🛠 Tech Arsenal
 
-**Programming & Frameworks**
+**Core Engineering**
 - **Languages:** PHP, JavaScript, **TypeScript**, **Go**, **Rust**, Python.
 - **Backend:** Laravel (**Livewire**), CodeIgniter, Node.js.
-- **Frontend:** Vue.js, Tailwind CSS, Bootstrap.
-- **Mobile:** Flutter, Android (Native).
+- **Frontend:** Vue.js, Tailwind CSS.
+- **Mobile:** Flutter, Native Android.
 
-**Database & Infrastructure**
-- **Database:** MySQL, PostgreSQL, MongoDB, Firebase.
-- **Tools:** Docker, Git, Cloudflare, Nginx, Linux Server Management.
+**Infrastructure & Data**
+- **Databases:** PostgreSQL, MySQL, MongoDB, Redis, Firebase.
+- **DevOps:** Docker, Nginx, Linux Server Management, Cloudflare, CI/CD.
 
-**Design & Others**
-- **Design:** Figma, Adobe Photoshop, Blender, Cinema 4D.
-- **Non-Technical:** Strategic Negotiation & Conflict Resolution.
+**Design & Strategy**
+- **Visuals:** Figma, Adobe Photoshop, Blender, Cinema 4D.
+- **Edge:** Strategic Negotiation & Conflict Resolution.
 
 ---
 
-### 📈 GitHub Statistics
+### 📈 Metrics
 <p align="left">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ahmadaqib&" alt="ahmadaqib" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ahmadaqib&theme=dark" alt="ahmadaqib" />
 </p>
 
 ---
 
-### 📬 Reach Out
+### 📬 Get In Touch
 - **Email:** [ahmadaqibsunu@gmail.com](mailto:ahmadaqibsunu@gmail.com)
 - **Instagram:** [@ahmadaqibb](https://instagram.com/ahmadaqibb)
 
 <p align="left">
-  *"Execution is the only differentiator."*
+  <em>"Execution is the only differentiator."</em>
 </p>
