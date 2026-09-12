@@ -1,112 +1,124 @@
 <h1 align="center">Ahmad Aqib</h1>
 
 <p align="center">
-  <strong>Full-stack Developer · Backend & Infrastructure</strong><br>
-  Web applications, the systems behind them, and the decisions that keep them maintainable.
+  <strong>Full-stack Developer · Backend &amp; Infrastructure</strong><br>
+  Curious about what happens after the app goes live.
 </p>
 
 <p align="center">
-  <a href="mailto:ahmadaqibsunu@gmail.com">Discuss a project ↗</a> &nbsp;·&nbsp;
-  <a href="https://github.com/ahmadaqib?tab=repositories">Explore my code</a> &nbsp;·&nbsp;
+  <a href="https://ahmadaqib.site"><strong>Portfolio ↗</strong></a> &nbsp;·&nbsp;
+  <a href="https://github.com/ahmadaqib?tab=repositories">Code</a> &nbsp;·&nbsp;
+  <a href="mailto:ahmadaqibsunu@gmail.com">Get in touch</a> &nbsp;·&nbsp;
   <a href="https://www.instagram.com/ahmadaqibb/">Instagram</a>
 </p>
 
 ---
 
-### 01 / Character select
+I'm Aqib. I work across application code, databases, and deployment infrastructure, mostly with **Laravel, Vue, and TypeScript**.
 
-I'm Aqib. I work across application code, databases, and deployment infrastructure.
+Give me a slow endpoint, a release with too many manual steps, or a module everyone avoids changing. Those are the problems I like working through.
 
-I'm interested in the parts of engineering that become visible after launch: slow queries, awkward releases, confusing abstractions, and code nobody wants to touch.
+I also care about the conversation before the code: agreeing on scope, surfacing constraints, and making decisions the team can actually follow through on.
 
-My toolkit includes Laravel, Vue, and TypeScript. My current focus is Go, Rust, backend performance, and distributed systems.
+**Here for the code?** Start below. **Up for a challenge?** [Try the boss fight ↓](#boss-fight)
 
-Negotiation is part of my toolkit, too. A technical decision needs agreement on scope, constraints, and what the team can actually deliver.
+## Selected work
 
-**Open to:** engineering projects, architecture discussions, and technical collaborations.
+| Project | What you'll find |
+| :--- | :--- |
+| **[ngafe.space ↗](https://github.com/ahmadaqib/ngafe.space)** | A Laravel and Livewire app for café discovery and reviews, with moderation tools. |
+| **[Sniper-Loker ↗](https://github.com/ahmadaqib/Sniper-Loker)** | A Go backend that collects job listings from multiple sources and delivers updates over WebSockets. |
 
-### 02 / Quest board
-
-Current areas of focus. The finish lines below are goals, not claimed achievements.
-
-| Quest | Focus | What progress should look like |
-| :--- | :--- | :--- |
-| ⚙️ **Go deeper** | Go & Rust | Small, useful tools with clear benchmarks and documented trade-offs. |
-| 🔎 **Find the bottleneck** | Backend performance | A reproducible slow path, a measured fix, and a before/after comparison. |
-| 🛠️ **Make shipping repeatable** | Infrastructure & DX | Deployments that are easy to repeat, inspect, and recover from. |
-| 🧩 **Study failure** | Distributed systems | Understand what happens when work is retried, delayed, or interrupted. |
-
-### 03 / Loadout
+## Loadout
 
 | Area | Tools |
 | :--- | :--- |
-| **Application development** | PHP · Laravel · Livewire · TypeScript · JavaScript · Vue · Tailwind CSS |
-| **Backend & scripting** | Go · Rust · Python · Node.js · CodeIgniter |
-| **Data** | PostgreSQL · MySQL · Redis · MongoDB · Firebase |
+| **Web** | PHP · Laravel · Livewire · Vue · TypeScript · JavaScript · Tailwind CSS |
+| **Data** | PostgreSQL · MySQL · Redis |
 | **Infrastructure** | Docker · Linux · Nginx · Cloudflare · CI/CD |
-| **Mobile** | Flutter · Native Android |
 
 <details>
-<summary>🎒 Open the side inventory</summary>
+<summary>Open the rest of the toolkit</summary>
 
-**Design:** Figma, Photoshop, Blender, Cinema 4D.
-
-**Working with people:** strategic negotiation, conflict resolution, and technical leadership.
-
-</details>
-
-<!--
-PORTFOLIO UPGRADE — replace this comment with 2–3 verified project stories.
-Place them ABOVE the quest board when ready. Do not publish empty cards.
-For each project: link, user problem, your contribution, and observable result.
-Use measurements only when you can support them. A working demo, test suite,
-or concise architecture note is useful evidence when business metrics are private.
--->
-
-### 04 / AI in the workflow
-
-I use **Codex, Claude Code, and ChatGPT** daily; Gemini occasionally.
-
-They help me explore designs, work through unfamiliar code, draft tests, and review changes. I still need to establish the business context, check the assumptions, and verify the behavior before shipping.
-
-The useful question is: **does the change solve the problem, and how do we know?**
-
-### 05 / Bonus level: the retry trap
-
-An API creates an order. The response times out. The client retries.
-
-**How many orders should exist?**
-
-<details>
-<summary>▸ Reveal the catch</summary>
-
-The intended result is one. A timeout alone doesn't tell the client whether the first request succeeded.
-
-I'd start by checking how the API identifies the same operation across retries, and whether that protection holds when requests arrive concurrently.
-
-Then I'd look beyond the order record: can payment, stock updates, or notifications happen twice?
-
-**Bonus question:** what should happen if the same idempotency key arrives with a different payload?
+- **Backend & scripting:** Python, Node.js, CodeIgniter.
+- **More data tools:** MongoDB, Firebase.
+- **Mobile:** Flutter, native Android.
+- **Design & 3D:** Figma, Photoshop, Blender, Cinema 4D.
+- **Working with people:** negotiation, conflict resolution, technical leadership.
 
 </details>
 
 <details>
-<summary>▸ Unlock one more question</summary>
+<summary>Where AI fits into my workflow</summary>
 
-**“Should this be a microservice?”**
+I use **Codex, Claude Code, and ChatGPT** daily; Gemini occasionally. They help me trace unfamiliar code, compare approaches, draft tests, and review changes.
 
-Which constraint does the split remove—and who will own the extra deployment, monitoring, and failure modes?
+Before shipping, I check the business rules, read the diff, and verify what the change actually does.
 
-If we can't answer that yet, I'd keep the boundary in the code and revisit the deployment boundary when there's a reason.
+</details>
+
+## Quest log
+
+What I'm working toward, and what would count as progress.
+
+| Quest | Done when |
+| :--- | :--- |
+| **Go & Rust** | A small tool solves a real problem, with documented choices and relevant benchmarks. |
+| **Backend performance** | A slow path has a reproducible test case and a measured before/after comparison. |
+| **Infrastructure & DX** | A deployment is repeatable, and recovery from a failed release has been rehearsed. |
+| **Distributed systems** | An experiment shows what happens when work is retried, delayed, or interrupted. |
+
+<a name="boss-fight"></a>
+
+## Optional boss fight · The retry trap
+
+An order is saved. The response never reaches the client. The client retries.
+
+**The customer wanted one order. Your API received two requests.**
+
+Pick a fix. Open your choice.
+
+<details>
+<summary><strong>A · Increase the timeout</strong></summary>
+
+This may reduce retries, but a response can still get lost. The client still cannot tell whether the first request succeeded.
+
+The duplicate-order problem survives. Try another move.
+
+</details>
+
+<details>
+<summary><strong>B · Disable the submit button</strong></summary>
+
+Useful feedback for the person clicking. It won't stop a client retrying a request, or two requests arriving together.
+
+Keep the UI improvement. The API still needs a defence.
+
+</details>
+
+<details>
+<summary><strong>C · Give the operation a stable identity</strong></summary>
+
+This is where I'd start: reuse an **idempotency key** across retries and enforce uniqueness on the server, including when requests arrive concurrently.
+
+I'd check the crash cases too: what if the order is saved, but the result isn't recorded? Then I'd trace the side effects. Payments, stock updates, and notifications each need a retry strategy.
+
+**Second phase:** the same key arrives with a different payload.
+
+I'd reject the mismatch. Reusing an operation's identity should not silently change its meaning.
+
+[Compare with Stripe's idempotency behavior ↗](https://docs.stripe.com/api/idempotent_requests)
 
 </details>
 
 ---
 
-### Have a problem worth working on?
+## Work together
 
-Tell me what you're building, where it's getting stuck, and the constraints you're working within.
+Open to **engineering projects, architecture discussions, and technical collaborations**.
 
-**[Start a conversation →](mailto:ahmadaqibsunu@gmail.com)**
+Tell me what you're building, where it's stuck, and the constraints. A rough problem description is enough to start.
 
-<p align="center"><sub>Usually on Linux. Often with coffee. Benchmark first.</sub></p>
+**[Start a conversation →](mailto:ahmadaqibsunu@gmail.com)** &nbsp;·&nbsp; **[Visit my portfolio ↗](https://ahmadaqib.site)**
+
+<p align="center"><sub>Usually on Linux. Often with coffee. Still checking the query plan.</sub></p>
