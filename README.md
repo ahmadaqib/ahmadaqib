@@ -54,6 +54,7 @@ But I still read the diff, check it against the business rules, and make sure I 
 
 ### What I'm learning right now
 
+- **Machine learning.** Learning to train and fine-tune AI models, then exporting them to ONNX and loading them from Go, so a model can run inside a regular backend service and not just in a notebook.
 - **Go and Rust.** I want to ship a small tool that solves a real problem, with the trade-offs written down and benchmarks that actually mean something.
 - **Backend performance.** Taking a slow path, making it reproducible, and showing an honest before and after.
 - **Deploys I don't have to babysit.** Repeatable releases, and actually practicing the rollback before I need it.
