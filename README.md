@@ -1,124 +1,78 @@
 <h1 align="center">Ahmad Aqib</h1>
 
 <p align="center">
-  <strong>Full-stack Developer · Backend &amp; Infrastructure</strong><br>
-  Curious about what happens after the app goes live.
+  Full-stack developer from Makassar, Indonesia.<br>
+  I build web apps, and I usually stick around for what happens after they go live.
 </p>
 
 <p align="center">
   <a href="https://ahmadaqib.site"><strong>Portfolio ↗</strong></a> &nbsp;·&nbsp;
   <a href="https://github.com/ahmadaqib?tab=repositories">Code</a> &nbsp;·&nbsp;
-  <a href="mailto:ahmadaqibsunu@gmail.com">Get in touch</a> &nbsp;·&nbsp;
+  <a href="mailto:ahmadaqibsunu@gmail.com">Email</a> &nbsp;·&nbsp;
   <a href="https://www.instagram.com/ahmadaqibb/">Instagram</a>
 </p>
 
 ---
 
-I'm Aqib. I work across application code, databases, and deployment infrastructure, mostly with **Laravel, Vue, and TypeScript**.
+Hey, I'm Aqib.
 
-Give me a slow endpoint, a release with too many manual steps, or a module everyone avoids changing. Those are the problems I like working through.
+Most of my days are spent somewhere between application code, databases, and servers, usually with **Laravel, Vue, and TypeScript**.
 
-I also care about the conversation before the code: agreeing on scope, surfacing constraints, and making decisions the team can actually follow through on.
+The work I enjoy most is the stuff people quietly avoid. The endpoint that's been slow for months. The deploy that needs a checklist and a little prayer. The module nobody touches anymore because the last change broke something. I like figuring out why, and leaving it in better shape than I found it.
 
-**Here for the code?** Start below. **Up for a challenge?** [Try the boss fight ↓](#boss-fight)
+I also like the part before the code: talking through scope, asking the slightly annoying "what happens if…" questions early, and making sure whatever we decide is something the team can actually keep doing.
 
-## Selected work
+### Things I've built
 
-| Project | What you'll find |
-| :--- | :--- |
-| **[ngafe.space ↗](https://github.com/ahmadaqib/ngafe.space)** | A Laravel and Livewire app for café discovery and reviews, with moderation tools. |
-| **[Sniper-Loker ↗](https://github.com/ahmadaqib/Sniper-Loker)** | A Go backend that collects job listings from multiple sources and delivers updates over WebSockets. |
+- **[ngafe.space ↗](https://github.com/ahmadaqib/ngafe.space)**
+  A café discovery and review app for students in Makassar, built with Laravel and Livewire. Comes with moderation tools, because reviews need a bit of looking after.
 
-## Loadout
+- **[Sniper-Loker ↗](https://github.com/ahmadaqib/Sniper-Loker)**
+  A Go backend that pulls job listings from several sources and pushes new ones to you in real time over WebSockets.
 
-| Area | Tools |
-| :--- | :--- |
-| **Web** | PHP · Laravel · Livewire · Vue · TypeScript · JavaScript · Tailwind CSS |
-| **Data** | PostgreSQL · MySQL · Redis |
-| **Infrastructure** | Docker · Linux · Nginx · Cloudflare · CI/CD |
+### What I work with
+
+Most days it's **PHP, Laravel, Livewire, Vue, TypeScript, and Tailwind** on the front of things, **PostgreSQL, MySQL, and Redis** for data, and **Docker, Linux, Nginx, Cloudflare, and CI/CD** keeping it all running.
 
 <details>
-<summary>Open the rest of the toolkit</summary>
+<summary>And a few more</summary>
+<br>
 
-- **Backend & scripting:** Python, Node.js, CodeIgniter.
-- **More data tools:** MongoDB, Firebase.
-- **Mobile:** Flutter, native Android.
-- **Design & 3D:** Figma, Photoshop, Blender, Cinema 4D.
-- **Working with people:** negotiation, conflict resolution, technical leadership.
+I'm also comfortable with Python, Node.js, and CodeIgniter on the backend, MongoDB and Firebase for data, and Flutter or native Android for mobile. Outside of code, I do some design and 3D work in Figma, Photoshop, Blender, and Cinema 4D.
 
 </details>
 
 <details>
-<summary>Where AI fits into my workflow</summary>
+<summary>How I use AI</summary>
+<br>
 
-I use **Codex, Claude Code, and ChatGPT** daily; Gemini occasionally. They help me trace unfamiliar code, compare approaches, draft tests, and review changes.
+I use Codex, Claude Code, and ChatGPT pretty much every day, and Gemini now and then. Mostly to find my way around unfamiliar code, compare approaches, draft tests, and get a second pair of eyes on a change.
 
-Before shipping, I check the business rules, read the diff, and verify what the change actually does.
-
-</details>
-
-## Quest log
-
-What I'm working toward, and what would count as progress.
-
-| Quest | Done when |
-| :--- | :--- |
-| **Go & Rust** | A small tool solves a real problem, with documented choices and relevant benchmarks. |
-| **Backend performance** | A slow path has a reproducible test case and a measured before/after comparison. |
-| **Infrastructure & DX** | A deployment is repeatable, and recovery from a failed release has been rehearsed. |
-| **Distributed systems** | An experiment shows what happens when work is retried, delayed, or interrupted. |
-
-<a name="boss-fight"></a>
-
-## Optional boss fight · The retry trap
-
-An order is saved. The response never reaches the client. The client retries.
-
-**The customer wanted one order. Your API received two requests.**
-
-Pick a fix. Open your choice.
-
-<details>
-<summary><strong>A · Increase the timeout</strong></summary>
-
-This may reduce retries, but a response can still get lost. The client still cannot tell whether the first request succeeded.
-
-The duplicate-order problem survives. Try another move.
+But I still read the diff, check it against the business rules, and make sure I know what a change actually does before it ships. The tools help. The responsibility stays with me.
 
 </details>
 
-<details>
-<summary><strong>B · Disable the submit button</strong></summary>
+### What I'm learning right now
 
-Useful feedback for the person clicking. It won't stop a client retrying a request, or two requests arriving together.
+- **Go and Rust.** I want to ship a small tool that solves a real problem, with the trade-offs written down and benchmarks that actually mean something.
+- **Backend performance.** Taking a slow path, making it reproducible, and showing an honest before and after.
+- **Deploys I don't have to babysit.** Repeatable releases, and actually practicing the rollback before I need it.
+- **Distributed systems.** Poking at what happens when work gets retried, delayed, or cut off halfway.
 
-Keep the UI improvement. The API still needs a defence.
+### A problem I keep coming back to
 
-</details>
+A customer places an order. The server saves it, but the response gets lost on the way back. The client retries. Now there are two orders, and the customer only wanted one.
 
-<details>
-<summary><strong>C · Give the operation a stable identity</strong></summary>
+A longer timeout or a disabled submit button helps a little, but neither really fixes it. What I'd reach for is an **idempotency key**: the client sends the same key on every retry, and the server treats it as unique, even when two requests land at the same moment.
 
-This is where I'd start: reuse an **idempotency key** across retries and enforce uniqueness on the server, including when requests arrive concurrently.
+The interesting part is the edges. What if the order gets saved but the key doesn't? Do the payment, the stock update, and the notification each survive a retry? And if the same key shows up with a different payload, I'd reject it. The same identity shouldn't quietly start meaning something else.
 
-I'd check the crash cases too: what if the order is saved, but the result isn't recorded? Then I'd trace the side effects. Payments, stock updates, and notifications each need a retry strategy.
+[Stripe's take on this](https://docs.stripe.com/api/idempotent_requests) is worth a read if you're curious. And if you've got your own version of this problem, I'd honestly love to hear it.
 
-**Second phase:** the same key arrives with a different payload.
+### Let's talk
 
-I'd reject the mismatch. Reusing an operation's identity should not silently change its meaning.
+I'm open to engineering projects, architecture discussions, and collaborations. No need for a polished brief. Just tell me what you're building, where it's stuck, and what you're working around. That's plenty to start with.
 
-[Compare with Stripe's idempotency behavior ↗](https://docs.stripe.com/api/idempotent_requests)
+**[Send me an email →](mailto:ahmadaqibsunu@gmail.com)** &nbsp;·&nbsp; **[See my portfolio ↗](https://ahmadaqib.site)**
 
-</details>
-
----
-
-## Work together
-
-Open to **engineering projects, architecture discussions, and technical collaborations**.
-
-Tell me what you're building, where it's stuck, and the constraints. A rough problem description is enough to start.
-
-**[Start a conversation →](mailto:ahmadaqibsunu@gmail.com)** &nbsp;·&nbsp; **[Visit my portfolio ↗](https://ahmadaqib.site)**
-
-<p align="center"><sub>Usually on Linux. Often with coffee. Still checking the query plan.</sub></p>
+<p align="center"><sub>Usually on Linux. Usually with coffee. Probably staring at a query plan.</sub></p>
