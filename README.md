@@ -13,7 +13,7 @@
 </p>
 
 ---
-[![Statistik GitHub Ahmad Aqib](https://github-readme-stats-ivory-nine-61.vercel.app/api?username=ahmadaqib&show_icons=true)](https://github.com/ahmadaqib) 
+
 Hey, I'm Aqib.
 
 Most of my days are spent somewhere between application code, databases, and servers, usually with **Laravel, Vue, and TypeScript**.
