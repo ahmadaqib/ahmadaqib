@@ -1,15 +1,24 @@
 <h1 align="center">Ahmad Aqib</h1>
 
 <p align="center">
-  Full-stack developer from Makassar, Indonesia.<br>
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1000&color=38BDF8&center=true&vCenter=true&width=435&lines=Full-stack+Developer;Laravel,+Vue,+and+TypeScript;From+Makassar,+Indonesia" alt="Typing SVG" /></a>
+</p>
+
+<p align="center">
   I build web apps, and I usually stick around for what happens after they go live.
 </p>
 
 <p align="center">
   <a href="https://ahmadaqib.site"><strong>Portfolio ↗</strong></a> &nbsp;·&nbsp;
-  <a href="https://github.com/ahmadaqib?tab=repositories">Code</a> &nbsp;·&nbsp;
   <a href="mailto:ahmadaqibsunu@gmail.com">Email</a> &nbsp;·&nbsp;
   <a href="https://www.instagram.com/ahmadaqibb/">Instagram</a>
+</p>
+
+<br>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=ahmadaqib&show_icons=true&theme=transparent&hide_border=true&title_color=38BDF8&icon_color=38BDF8" height="160" alt="stats graph" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=ahmadaqib&layout=compact&langs_count=6&card_width=320&theme=transparent&hide_border=true&title_color=38BDF8" height="160" alt="languages graph" />
 </p>
 
 ---
@@ -34,22 +43,24 @@ I also like the part before the code: talking through scope, asking the slightly
 
 Most days it's **PHP, Laravel, Livewire, Vue, TypeScript, and Tailwind** on the front of things, **PostgreSQL, MySQL, and Redis** for data, and **Docker, Linux, Nginx, Cloudflare, and CI/CD** keeping it all running.
 
+<p align="left">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=php,laravel,vue,ts,tailwind,postgres,mysql,redis,docker,linux,nginx,cloudflare,git" alt="Skill Icons" />
+  </a>
+</p>
+
 <details>
-<summary>And a few more</summary>
+<summary><strong>And a few more</strong></summary>
 <br>
-
 I'm also comfortable with Python, Node.js, and CodeIgniter on the backend, MongoDB and Firebase for data, and Flutter or native Android for mobile. Outside of code, I do some design and 3D work in Figma, Photoshop, Blender, and Cinema 4D.
-
 </details>
 
 <details>
-<summary>How I use AI</summary>
+<summary><strong>How I use AI</strong></summary>
 <br>
-
-I use Codex, Claude Code, and ChatGPT pretty much every day, and Gemini now and then. Mostly to find my way around unfamiliar code, compare approaches, draft tests, and get a second pair of eyes on a change.
+I use Codex, Claude Code, and ChatGPT pretty much every day, and Gemini now and then. Mostly to find my way around unfamiliar code, compare approaches, draft tests, and get a second pair of eyes on a change. 
 
 But I still read the diff, check it against the business rules, and make sure I know what a change actually does before it ships. The tools help. The responsibility stays with me.
-
 </details>
 
 ### What I'm learning right now
@@ -75,5 +86,15 @@ The interesting part is the edges. What if the order gets saved but the key does
 I'm open to engineering projects, architecture discussions, and collaborations. No need for a polished brief. Just tell me what you're building, where it's stuck, and what you're working around. That's plenty to start with.
 
 **[Send me an email →](mailto:ahmadaqibsunu@gmail.com)** &nbsp;·&nbsp; **[See my portfolio ↗](https://ahmadaqib.site)**
+
+---
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ahmadaqib/ahmadaqib/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ahmadaqib/ahmadaqib/output/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/ahmadaqib/ahmadaqib/output/github-contribution-grid-snake.svg">
+  </picture>
+</p>
 
 <p align="center"><sub>Usually on Linux. Usually with coffee. Probably staring at a query plan.</sub></p>
