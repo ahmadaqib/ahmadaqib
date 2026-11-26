@@ -6,7 +6,9 @@ on:
   workflow_dispatch: # jalankan manual dari tab Actions
   push:
     branches: [main]
-    paths: [".github/workflows/animate.yml"]
+    paths:
+      - ".github/workflows/animate.yml"
+      - "scripts/**"
 
 permissions:
   contents: write
@@ -18,7 +20,7 @@ concurrency:
 jobs:
   generate:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 15
     env:
       USERNAME: ${{ github.repository_owner }}
 
@@ -26,19 +28,17 @@ jobs:
       - name: 📥 Checkout repository
         uses: actions/checkout@v4
 
-      - name: 📁 Prepare dist directory
-        run: mkdir -p dist
-
-      # 1) SNAKE — 4 varian: light, dark, neon (ungu-pink), ocean (biru-oranye)
-      - name: 🐍 Generate Snake animations
-        uses: Platane/snk@v3
+      - name: 🟢 Setup Node.js
+        uses: actions/setup-node@v4
         with:
-          github_user_name: ${{ env.USERNAME }}
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-            dist/snake-neon.svg?palette=github-dark&color_snake=#ff2bd6&color_dots=#161b22,#3b0a45,#7a1fa2,#c13cff,#f0abfc
-            dist/snake-ocean.svg?palette=github-dark&color_snake=#ffa657&color_dots=#161b22,#0b3d5c,#1f6feb,#58a6ff,#a5d6ff
+          node-version: 22
+
+      # 1) BINARY ASTRONAUT — astronot dari bit username, bintang = hari berkontribusi
+      - name: 🧑‍🚀 Generate Binary Astronaut
+        run: node scripts/astronaut.mjs dist/astronaut.svg
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NICKNAME: aqib
 
       # 2) PAC-MAN — Pac-Man memakan kotak kontribusi
       - name: 👾 Generate Pac-Man contribution graph
@@ -46,32 +46,17 @@ jobs:
         with:
           github_user_name: ${{ env.USERNAME }}
 
-      # 3) 3D CONTRIBUTION — beberapa tema (green, season, night-rainbow, dll.)
-      - name: 🧊 Generate 3D contribution graph
-        uses: yoshi389111/github-profile-3d-contrib@0.7.1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          USERNAME: ${{ env.USERNAME }}
-
-      - name: 📦 Move 3D assets into dist
-        run: mv profile-3d-contrib dist/
-
       # Gagal di sini = branch 'output' TIDAK ditimpa, jadi gambar lama tetap tampil
       - name: ✅ Verify outputs
         run: |
           set -e
-          for f in \
-            dist/github-contribution-grid-snake.svg \
-            dist/github-contribution-grid-snake-dark.svg \
-            dist/snake-neon.svg \
-            dist/snake-ocean.svg \
-            dist/profile-3d-contrib/profile-night-rainbow.svg; do
+          for f in dist/astronaut.svg dist/pacman-contribution-graph.svg dist/pacman-contribution-graph-dark.svg; do
             test -s "$f" || { echo "::error::File hilang/kosong: $f"; exit 1; }
           done
           echo "### 🎨 File yang dihasilkan" >> "$GITHUB_STEP_SUMMARY"
           find dist -name '*.svg' | sort | sed 's/^/- /' >> "$GITHUB_STEP_SUMMARY"
 
-      # 4) PUSH SEMUA KE BRANCH 'output'
+      # 3) PUSH SEMUA KE BRANCH 'output'
       - name: 🚀 Push to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:

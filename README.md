@@ -22,12 +22,18 @@ I'm drawn to the work people quietly avoid: the endpoint that's been slow for mo
 
 I also care about the part before the code. Talking through scope, asking the slightly annoying *"what happens if…"* questions early, and making sure whatever we decide is something the team can actually keep doing.
 
-## Things I've built
+## What I've built
 
-| Project | What it does | Built with |
-| :-- | :-- | :-- |
-| **[ngafe.space ↗](https://github.com/ahmadaqib/ngafe.space)** | Café discovery and reviews for students in Makassar. Comes with moderation tools, because reviews need a bit of looking after. | Laravel, Livewire |
-| **[Sniper-Loker ↗](https://github.com/ahmadaqib/Sniper-Loker)** | Pulls job listings from several sources and pushes new ones to you the moment they appear. | Go, WebSockets |
+### [Petualang Web ↗](https://gamifikasi.site)
+
+A free, open-source platform for learning web development and API design in Bahasa Indonesia, built around games, real-world stories, and interactive simulators. An HTTP request becomes a restaurant order, the internet becomes a courier, and every analogy is honest about where it stops working and the real code takes over.
+
+- **22 worlds on two tracks:** building interfaces (HTML, CSS, JavaScript, accessibility) and making apps talk to each other (HTTP, JSON, REST, GraphQL, WebSockets, auth, CORS).
+- **21+ interactive simulators** and 13 question types, with spaced repetition so the questions you miss come back until they stick.
+- **Two modes:** Junior for primary-school kids, with read-aloud and no typing, and Pro for teens and beginners, with real code.
+- **Private by default:** no accounts and no tracking. Progress stays on the device.
+
+<sub>React · TypeScript · Vite · Tailwind CSS · Zustand · Vitest &nbsp;·&nbsp; **[Source on GitHub ↗](https://github.com/ahmadaqib/Learning-Kit)**</sub>
 
 ## What I work with
 
@@ -96,11 +102,7 @@ No polished brief needed. Tell me what you're building, where it's stuck, and wh
 ---
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ahmadaqib/ahmadaqib/output/profile-3d-contrib/profile-night-rainbow.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ahmadaqib/ahmadaqib/output/profile-3d-contrib/profile-season-animate.svg">
-    <img alt="3D contribution graph" src="https://raw.githubusercontent.com/ahmadaqib/ahmadaqib/output/profile-3d-contrib/profile-season-animate.svg">
-  </picture>
+  <img width="100%" alt="An astronaut made of binary drifting through a sky where every star is a day I contributed" src="https://raw.githubusercontent.com/ahmadaqib/ahmadaqib/output/astronaut.svg">
 </p>
 
 <p align="center">
