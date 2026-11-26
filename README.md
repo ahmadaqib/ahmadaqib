@@ -1,11 +1,11 @@
 <h1 align="center">Ahmad Aqib</h1>
 
 <p align="center">
-  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1000&color=38BDF8&center=true&vCenter=true&width=435&lines=Full-stack+Developer;Laravel,+Vue,+and+TypeScript;From+Makassar,+Indonesia" alt="Typing SVG" /></a>
+  <b>Full-stack developer</b> &nbsp;·&nbsp; Laravel, Vue, TypeScript, Go &nbsp;·&nbsp; Makassar, Indonesia
 </p>
 
 <p align="center">
-  I build web apps, and I usually stick around for what happens after they go live.
+  <i>I build web apps, and I stick around for what happens after they go live.</i>
 </p>
 
 <p align="center">
@@ -14,75 +14,82 @@
   <a href="https://www.instagram.com/ahmadaqibb/">Instagram</a>
 </p>
 
-<br>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=ahmadaqib&layout=compact&langs_count=8&card_width=420&theme=transparent&hide_border=true&title_color=38BDF8" alt="Most used languages" />
-</p>
-
 ---
 
-Hey, I'm Aqib.
+Hey, I'm Aqib. I spend most of my days somewhere between application code, databases, and servers.
 
-Most of my days are spent somewhere between application code, databases, and servers, usually with **Laravel, Vue, and TypeScript**.
+I'm drawn to the work people quietly avoid: the endpoint that's been slow for months, the deploy that needs a checklist and a little prayer, the module nobody touches since the last change broke something. I like finding out why, and leaving it in better shape than I found it.
 
-The work I enjoy most is the stuff people quietly avoid. The endpoint that's been slow for months. The deploy that needs a checklist and a little prayer. The module nobody touches anymore because the last change broke something. I like figuring out why, and leaving it in better shape than I found it.
+I also care about the part before the code. Talking through scope, asking the slightly annoying *"what happens if…"* questions early, and making sure whatever we decide is something the team can actually keep doing.
 
-I also like the part before the code: talking through scope, asking the slightly annoying "what happens if…" questions early, and making sure whatever we decide is something the team can actually keep doing.
+## Things I've built
 
-### Things I've built
+| Project | What it does | Built with |
+| :-- | :-- | :-- |
+| **[ngafe.space ↗](https://github.com/ahmadaqib/ngafe.space)** | Café discovery and reviews for students in Makassar. Comes with moderation tools, because reviews need a bit of looking after. | Laravel, Livewire |
+| **[Sniper-Loker ↗](https://github.com/ahmadaqib/Sniper-Loker)** | Pulls job listings from several sources and pushes new ones to you the moment they appear. | Go, WebSockets |
 
-- **[ngafe.space ↗](https://github.com/ahmadaqib/ngafe.space)**
-  A café discovery and review app for students in Makassar, built with Laravel and Livewire. Comes with moderation tools, because reviews need a bit of looking after.
-
-- **[Sniper-Loker ↗](https://github.com/ahmadaqib/Sniper-Loker)**
-  A Go backend that pulls job listings from several sources and pushes new ones to you in real time over WebSockets.
-
-### What I work with
-
-Most days it's **PHP, Laravel, Go, and Rust** on the backend, **Vue, React, TypeScript, Livewire, and Tailwind** on the frontend, **PostgreSQL, MySQL, and Redis** for data, and **Docker, Linux, Nginx, Cloudflare, and CI/CD** keeping it all running.
+## What I work with
 
 <p align="left">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=php,laravel,go,rust,vue,react,ts,tailwind,postgres,mysql,redis,docker,linux,nginx,cloudflare,git&perline=8" alt="Skill Icons" />
+    <img src="https://skillicons.dev/icons?i=php,laravel,go,rust,vue,react,ts,tailwind,postgres,mysql,redis,docker,linux,nginx,cloudflare,git&perline=8" alt="PHP, Laravel, Go, Rust, Vue, React, TypeScript, Tailwind, PostgreSQL, MySQL, Redis, Docker, Linux, Nginx, Cloudflare, Git" />
   </a>
 </p>
+
+| Area | Day to day |
+| :-- | :-- |
+| **Backend** | PHP, Laravel, Go, Rust |
+| **Frontend** | Vue, React, TypeScript, Livewire, Tailwind |
+| **Data** | PostgreSQL, MySQL, Redis |
+| **Running it** | Docker, Linux, Nginx, Cloudflare, CI/CD |
 
 <details>
 <summary><strong>And a few more</strong></summary>
 <br>
-I'm also comfortable with Python, Node.js, and CodeIgniter on the backend, MongoDB and Firebase for data, and Flutter or native Android for mobile. Outside of code, I do some design and 3D work in Figma, Photoshop, Blender, and Cinema 4D.
+Python, Node.js, and CodeIgniter on the backend. MongoDB and Firebase for data. Flutter and native Android for mobile. Outside of code, some design and 3D work in Figma, Photoshop, Blender, and Cinema 4D.
 </details>
+
+<p align="left">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=ahmadaqib&layout=compact&langs_count=8&card_width=420&theme=transparent&hide_border=true&title_color=38BDF8" alt="Most used languages" />
+</p>
+
+## What I'm learning right now
+
+- **Running ML models inside a backend.** Training and fine-tuning, exporting to ONNX, and loading it from Go, so a model lives in a regular service and not just a notebook.
+- **Going deeper with Go and Rust.** Shipping a small tool that solves a real problem, with the trade-offs written down and benchmarks that actually mean something.
+- **Performance work with receipts.** Making a slow path reproducible, then showing an honest before and after.
+- **Boring deploys.** Repeatable releases, and practicing the rollback before I need it.
+- **Distributed systems.** What happens when work gets retried, delayed, or cut off halfway.
 
 <details>
 <summary><strong>How I use AI</strong></summary>
 <br>
-I use Codex, Claude Code, and ChatGPT pretty much every day, and Gemini now and then. Mostly to find my way around unfamiliar code, compare approaches, draft tests, and get a second pair of eyes on a change. 
+I use Codex, Claude Code, and ChatGPT pretty much every day, and Gemini now and then. Mostly to find my way around unfamiliar code, compare approaches, draft tests, and get a second pair of eyes on a change.
 
 But I still read the diff, check it against the business rules, and make sure I know what a change actually does before it ships. The tools help. The responsibility stays with me.
 </details>
 
-### What I'm learning right now
+## A problem I keep coming back to
 
-- **Machine learning.** Learning to train and fine-tune AI models, then exporting them to ONNX and loading them from Go, so a model can run inside a regular backend service and not just in a notebook.
-- **Go and Rust.** I want to ship a small tool that solves a real problem, with the trade-offs written down and benchmarks that actually mean something.
-- **Backend performance.** Taking a slow path, making it reproducible, and showing an honest before and after.
-- **Deploys I don't have to babysit.** Repeatable releases, and actually practicing the rollback before I need it.
-- **Distributed systems.** Poking at what happens when work gets retried, delayed, or cut off halfway.
+A customer places an order. The server saves it, but the response never makes it back. The client retries, and now there are two orders from someone who only wanted one.
 
-### A problem I keep coming back to
+A longer timeout or a disabled submit button helps a little, but neither fixes it. What I'd reach for is an **idempotency key**: the client sends the same key on every retry, and the server enforces it as unique, even when two requests land at the same moment.
 
-A customer places an order. The server saves it, but the response gets lost on the way back. The client retries. Now there are two orders, and the customer only wanted one.
+The edges are where it gets interesting:
 
-A longer timeout or a disabled submit button helps a little, but neither really fixes it. What I'd reach for is an **idempotency key**: the client sends the same key on every retry, and the server treats it as unique, even when two requests land at the same moment.
+- What if the order gets saved but the key doesn't?
+- Do the payment, the stock update, and the notification each survive a retry?
+- Same key, different payload? I'd reject it. One identity shouldn't quietly start meaning something else.
 
-The interesting part is the edges. What if the order gets saved but the key doesn't? Do the payment, the stock update, and the notification each survive a retry? And if the same key shows up with a different payload, I'd reject it. The same identity shouldn't quietly start meaning something else.
+[Stripe's take on this](https://docs.stripe.com/api/idempotent_requests) is worth a read. And if you've run into your own version of this problem, I'd honestly love to hear it.
 
-[Stripe's take on this](https://docs.stripe.com/api/idempotent_requests) is worth a read if you're curious. And if you've got your own version of this problem, I'd honestly love to hear it.
+## Let's talk
 
-### Let's talk
+> [!TIP]
+> **Open to** engineering projects, architecture discussions, and collaborations.
 
-I'm open to engineering projects, architecture discussions, and collaborations. No need for a polished brief. Just tell me what you're building, where it's stuck, and what you're working around. That's plenty to start with.
+No polished brief needed. Tell me what you're building, where it's stuck, and what you're working around. That's plenty to start with.
 
 **[Send me an email →](mailto:ahmadaqibsunu@gmail.com)** &nbsp;·&nbsp; **[See my portfolio ↗](https://ahmadaqib.site)**
 
