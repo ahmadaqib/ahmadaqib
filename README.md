@@ -90,9 +90,17 @@ I'm open to engineering projects, architecture discussions, and collaborations. 
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ahmadaqib/ahmadaqib/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ahmadaqib/ahmadaqib/output/github-contribution-grid-snake.svg">
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/ahmadaqib/ahmadaqib/output/github-contribution-grid-snake.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ahmadaqib/ahmadaqib/output/profile-3d-contrib/profile-night-rainbow.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ahmadaqib/ahmadaqib/output/profile-3d-contrib/profile-season-animate.svg">
+    <img alt="3D contribution graph" src="https://raw.githubusercontent.com/ahmadaqib/ahmadaqib/output/profile-3d-contrib/profile-season-animate.svg">
+  </picture>
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ahmadaqib/ahmadaqib/output/pacman-contribution-graph-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ahmadaqib/ahmadaqib/output/pacman-contribution-graph.svg">
+    <img alt="Pac-Man eating the contribution graph" src="https://raw.githubusercontent.com/ahmadaqib/ahmadaqib/output/pacman-contribution-graph.svg">
   </picture>
 </p>
 
