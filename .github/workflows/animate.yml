@@ -6,7 +6,7 @@ on:
   workflow_dispatch: # jalankan manual dari tab Actions
   push:
     branches: [main]
-    paths: [".github/workflows/profile-animations.yml"] # otomatis jalan saat workflow ini diubah
+    paths: [".github/workflows/animate.yml"]
 
 permissions:
   contents: write
