@@ -42,7 +42,7 @@ jobs:
 
       # 2) PAC-MAN — Pac-Man memakan kotak kontribusi
       - name: 👾 Generate Pac-Man contribution graph
-        uses: abozanona/pacman-contribution-graph@main # sebaiknya pin ke commit SHA
+        uses: abozanona/pacman-contribution-graph@70945878b1118303b37b88060fc7145e1a57d7b1 # main per 2026-11-11 (v5.3.2 + 7 commit)
         with:
           github_user_name: ${{ env.USERNAME }}
 
