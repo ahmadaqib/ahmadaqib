@@ -17,8 +17,7 @@
 <br>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ahmadaqib&show_icons=true&theme=transparent&hide_border=true&hide_rank=true&title_color=38BDF8&icon_color=38BDF8" height="160" alt="stats graph" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=ahmadaqib&layout=compact&langs_count=6&card_width=320&theme=transparent&hide_border=true&title_color=38BDF8" height="160" alt="languages graph" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=ahmadaqib&layout=compact&langs_count=8&card_width=420&theme=transparent&hide_border=true&title_color=38BDF8" alt="Most used languages" />
 </p>
 
 ---
@@ -41,11 +40,11 @@ I also like the part before the code: talking through scope, asking the slightly
 
 ### What I work with
 
-Most days it's **PHP, Laravel, Livewire, Vue, TypeScript, and Tailwind** on the front of things, **PostgreSQL, MySQL, and Redis** for data, and **Docker, Linux, Nginx, Cloudflare, and CI/CD** keeping it all running.
+Most days it's **PHP, Laravel, Go, and Rust** on the backend, **Vue, React, TypeScript, Livewire, and Tailwind** on the frontend, **PostgreSQL, MySQL, and Redis** for data, and **Docker, Linux, Nginx, Cloudflare, and CI/CD** keeping it all running.
 
 <p align="left">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=php,laravel,vue,ts,tailwind,postgres,mysql,redis,docker,linux,nginx,cloudflare,git" alt="Skill Icons" />
+    <img src="https://skillicons.dev/icons?i=php,laravel,go,rust,vue,react,ts,tailwind,postgres,mysql,redis,docker,linux,nginx,cloudflare,git&perline=8" alt="Skill Icons" />
   </a>
 </p>
 
